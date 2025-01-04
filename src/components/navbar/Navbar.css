@@ -5,8 +5,13 @@
   margin: 20px 170px;
   
 }
-.navbar img {
-  width: 100px;
+.navbar h1{
+  font-size: 36px;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-menu {
   display: flex;

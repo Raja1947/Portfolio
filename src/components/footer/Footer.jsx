@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
 import user from '../../assets/user_icon.svg';
-import logo from '../../assets/logo1.png'
+
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src={logo} alt=""/>
+          <h1>RAJA</h1>
           <p>
             I specialize in building clean, responsive, and interactive user
             interfaces using modern web technologies like HTML, CSS, JavaScript,

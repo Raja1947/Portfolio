@@ -7,6 +7,8 @@ import Hero from './components/hero/Hero'
 import Footer from './components/footer/Footer'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
+import Services from './components/services/Services'
+import Projects from './components/projects/Projects'
 
 function App() {
   
@@ -16,6 +18,8 @@ function App() {
    <Navbar/>
    <Hero/>
    <About/>
+   <Services/>
+   <Projects/>
    <Contact/>
    <Footer/>
    </>
