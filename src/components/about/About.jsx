@@ -5,7 +5,7 @@ import logo from "../../assets/nav_underline.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="title-box">
         <h1>About me</h1>
         <img src={logo} />
