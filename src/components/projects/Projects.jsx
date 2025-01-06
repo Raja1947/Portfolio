@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="mywork" id="portfolio">
       <div className="title-box">
-        <h1>Selected Projects</h1>
+        <h1>My Projects</h1>
         <img src={underline} alt="" />
       </div>
       <div className="mywork-container">

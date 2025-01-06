@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.svg";
+import profile_img from "../../assets/pro1.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero" id="home">
       <img src={profile_img} alt="" />
       <h1>
-        <span>I'm Raja Dhoundiyal,</span> a frontend developer based in India.
+        <span>I'm Raja Dhoundiyal,</span> a frontend developer from India.
       </h1>
       <p>
         I specialize in building clean, responsive, and interactive user
@@ -18,14 +18,16 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-      
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
-          <div className="hero-connect">
-            Connect With Me
-            </div>
-          </AnchorLink>
-        
-        <div className="hero-resume">My resume</div>
+        <AnchorLink className="anchor-link" offset={50} href="#contact">
+          <div className="hero-connect">Connect With Me</div>
+        </AnchorLink>
+
+        <div
+          className="hero-resume"
+          onClick={() => window.open("https://github.com/Raja1947", "_blank")}
+        >
+          My Github
+        </div>
       </div>
     </div>
   );

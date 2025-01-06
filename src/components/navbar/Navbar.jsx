@@ -7,20 +7,25 @@ import menu_close from "../../assets/menu_close.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
-  const menuRef=useRef()
+  const menuRef = useRef();
 
-  const openMenu=()=>{
-    menuRef.current.style.right="0"
-  }
-  const closeMenu=()=>{
-    menuRef.current.style.right="-350px"
-  }
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
   return (
     <div className="navbar">
       <h1>RAJA</h1>
-      <img src={menu_open} alt="" className="nav-mob-open" onClick={openMenu}/>
+      <img src={menu_open} alt="" className="nav-mob-open" onClick={openMenu} />
       <ul ref={menuRef} className="nav-menu">
-        <img src={menu_close} alt="" className="nav-mob-close" onClick={closeMenu} />
+        <img
+          src={menu_close}
+          alt=""
+          className="nav-mob-close"
+          onClick={closeMenu}
+        />
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")}>Home</p>

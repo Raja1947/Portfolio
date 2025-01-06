@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../../assets/about_profile.svg";
+import profile from "../../assets/profile.jpg";
 import logo from "../../assets/nav_underline.svg";
 
 const About = () => {
@@ -17,10 +17,11 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an experienced Frontend Developer with over a decade of
-              professional expertise in the field. Throughout my career, I have
-              had the privilege of collaborating with prestigious organizations,
-              contributing to their success and growth.
+              I am an aspiring Frontend Developer with a strong interest in
+              creating visually appealing and highly functional web
+              applications. My experience includes working on personal projects,
+              where I have implemented modern frontend technologies like React,
+              and responsive design principles.
             </p>
             <p>
               My passion for frontend development is not only reflected in my
@@ -31,11 +32,11 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p>HTML</p>
-              <hr style={{ width: "85%" }} />
+              <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
               <p>CSS</p>
-              <hr style={{ width: "80%" }} />
+              <hr style={{ width: "72%" }} />
             </div>
             <div className="about-skill">
               <p>JAVASCRIPT</p>
@@ -47,7 +48,7 @@ const About = () => {
             </div>
             <div className="about-skill">
               <p>REACT JS</p>
-              <hr style={{ width: "78%" }} />
+              <hr style={{ width: "70%" }} />
             </div>
           </div>
         </div>

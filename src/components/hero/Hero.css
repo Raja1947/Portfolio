@@ -54,37 +54,36 @@
   border-color: #b415ff;
 }
 
-@media(max-width:768px){
-  .hero img{
-    margin-bottom: 120px;
-    width: 260px;
-  }
-  .hero h1{
+@media (max-width: 768px) {
+  .hero img {
     margin-top: 50px;
+    width: 200px;
+  }
+  .hero h1 {
+    margin-top: 10px;
     width: 90%;
-    font-size: 50px;
+    font-size: 35px;
   }
   .hero p {
     width: 80%;
-    font-size: 18px;
-    line-height: 32px;
-    margin: 10px 0;
+    /* font-size: 16px; */
+    line-height: 25px;
+    /* margin: 5px 0; */
   }
   .hero-action {
-    gap: 16px;
-    font-size: 18px;
+    gap: 10px;
     font-weight: 500;
     margin-bottom: 50px;
-
   }
   .hero-connect {
-    padding: 20px 30px;
+    padding: 20px;
     border-radius: 40px;
-  
+    font-size: 14px;
   }
+
   .hero-resume {
-    padding: 20px 30px;
+    padding: 18px 30px;
     border-radius: 40px;
-    
+    font-size: 14px;
   }
 }

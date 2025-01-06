@@ -3,9 +3,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 170px;
-  
 }
-.navbar h1{
+.navbar h1 {
   font-size: 36px;
   background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
   background-clip: border-box;
@@ -30,39 +29,40 @@
 .nav-connect:hover {
   transform: scale(1.05);
 }
-.nav-menu li{
+.nav-menu li {
   display: flex;
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
 }
-.nav-menu li img{
+.nav-menu li img {
   display: flex;
   margin: auto;
 }
-.anchor-link{
+.anchor-link {
   text-decoration: none;
   color: #fff;
 }
-.nav-mob-close{
+.nav-mob-close {
   display: none;
 }
-.nav-mob-open{
+.nav-mob-open {
   display: none;
 }
-@media(max-width:768px){
-  .navbar{
-    margin: 20px 50px;
+@media (max-width: 768px) {
+  .navbar {
+    margin: 20px 30px;
   }
-  .nav-connect{
+  .nav-connect {
     display: none;
   }
-  .nav-mob-open{
+  .nav-mob-open {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 30px;
+    width: 30px;
   }
-  .nav-mob-close{
+  .nav-mob-close {
     display: block;
     position: relative;
     top: 30px;
@@ -75,14 +75,14 @@
     align-items: start;
     top: 0;
     gap: 30px;
-    background-color: #1F0016;
+    background-color: #1f0016;
     width: 350px;
     height: 100%;
     z-index: 2;
     transition: right 0.5s;
     right: -350px;
   }
-  .nav-menu li{
+  .nav-menu li {
     font-size: 22px;
     padding-left: 100px;
     flex-direction: row;
